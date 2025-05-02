@@ -1,0 +1,7 @@
+efeito ZEBRADO
+
+pseudoclasse nth-child(intervalo de linhas)
+
+exemplo
+
+tr:nth-child(2n), tr:nth-child(odd ("impar") even ("par")
