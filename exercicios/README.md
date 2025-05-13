@@ -1,4 +1,9 @@
 # html-css
+<style>
+    ul{
+        columns: 2;
+    }
+</style>
 <ul>
     <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex001/">EX001</a></li>
     <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex002">EX002</a></li>
