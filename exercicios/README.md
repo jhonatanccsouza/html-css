@@ -29,4 +29,7 @@
     <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex021">EX021</a></li>
     <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex022">EX022</a></li>
     <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex023">EX023</a></li>
+    <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex024">EX024</a></li>
+    <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex025">EX025</a></li>
+    
 </ul>
