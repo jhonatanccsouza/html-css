@@ -31,5 +31,6 @@
     <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex023">EX023</a></li>
     <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex024">EX024</a></li>
     <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex025">EX025</a></li>
+    <li><a href="https://jhonatanccsouza.github.io/html-css/exercicios/ex026">EX026</a></li>
     
 </ul>
