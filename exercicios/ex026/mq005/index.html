@@ -10,7 +10,7 @@
 
     
 </head>
-<body onresize="monitorarTamanho()">
+<body>
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
@@ -37,14 +37,9 @@
         </article>
     </main>
 
-    <script>
-        function monitorarTamanho(){
-            if(window.innerWidth >= 768){
-                menu.style.display = 'block'
-            } else {
-                menu.style.display = 'none'
-            }
-        }
+    
+   <script>
+        
         function clickMenu() {
             if (menu.style.display == 'block'){
                 menu.style.display = 'none'
