@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Flexble Box</title>
-
     <style>
         div.container{
-            background-color: beige;
+            background-color: rgb(235, 235, 152);
             display: flex;
+            flex-flow: row nowrap;
         }
         div.child{
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
-            flex: auto;
+            flex-basis: 80px;
             
         }
     </style>
@@ -24,11 +22,11 @@
 <body>
     <div class="container">
         <div class="child">A</div>
-        <div class="child">B</div>
+        <div class="child">conteudo</div>
         <div class="child">C</div>
-        <div class="child">D</div>
+        <div class="child">conteudo grande</div>
         <div class="child">E</div>
-        <div class="child">F</div>
+        <div class="child">conteudo gigante, jdhifsahdfiuhubgakjon</div>
         <div class="child">G</div>
         
     </div>

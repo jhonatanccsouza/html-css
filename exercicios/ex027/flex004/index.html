@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Flexble Box</title>
-
     <style>
         div.container{
-            background-color: beige;
+            background-color: orange;
             display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: stretch;
+            height: 200px;
         }
         div.child{
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
-            flex: auto;
+
             
         }
     </style>
@@ -28,7 +29,7 @@
         <div class="child">C</div>
         <div class="child">D</div>
         <div class="child">E</div>
-        <div class="child">F</div>
+        <div class="child">F</div>        
         <div class="child">G</div>
         
     </div>
