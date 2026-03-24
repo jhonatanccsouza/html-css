@@ -13,28 +13,31 @@
         div.child{
             background-color: lightblue;
             border: 1px solid black;
-            text-align: center;   
-            flex-basis: 300px;        
+            text-align: center;           
             
             
         }
         #c1{
-            flex-shrink: 1;
+            /* flex-shrink: 1;
             flex-grow: 1;
-           
+            flex-basis: 300px; */
+/* ShortHand = flex: flex-grow, flex-shrink, flex-basis; */
 
-
+            flex: 1 1 300px;
         }
         #c2{
-            flex-shrink: 0;
+            /* flex-shrink: 0;
             flex-grow: 2;
+            flex-basis: 300px; */
 
+            flex: 2 0 300px;
         }
         #c3{
-            flex-shrink: 2;
+            /* flex-shrink: 2;
             flex-grow: 3;
+            flex-basis: 300px; */
 
-           
+            flex: 3 2 300px;
         }
     </style>
 </head>
