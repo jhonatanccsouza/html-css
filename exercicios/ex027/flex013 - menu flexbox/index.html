@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Flexbox</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body onresize="resize()">
     <header>
         <h1>Site MenuFlex</h1>
-        <menu>
+        <img id="menuIcon" src="menu_hamb.png" alt="Icone Menu" onmouseenter="showMenu()" onclick="showMenu()">
+        <menu id="menu"  onmouseleave="showMenu()">
             <a href="#">OPÇÃO 1</a>
             <a href="#">OPÇÃO 2</a>
             <a href="#">OPÇÃO 3</a>
             <a href="#">OPÇÃO 4</a>
             <a href="#">OPÇÃO 5</a>
             <a href="#">OPÇÃO 6</a>
-            <a href="#">OPÇÃO 7</a>
-            <a href="#">OPÇÃO 8</a>
+            
+        
         </menu>
     </header>
     <main>
+
         <h1>Meu Site</h1>
 
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam corporis repellat obcaecati accusamus quasi minus, maxime porro modi doloremque praesentium sed perferendis, totam eligendi! Odit et nam ullam sunt totam!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatibus repellat facere eum excepturi officiis corporis optio nam numquam suscipit quidem totam odio aliquam beatae quos, reprehenderit necessitatibus dignissimos?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam corporis repellat obcaecati accusamus
+            quasi minus, maxime porro modi doloremque praesentium sed perferendis, totam eligendi! Odit et nam ullam
+            sunt totam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatibus repellat facere eum excepturi
+            officiis corporis optio nam numquam suscipit quidem totam odio aliquam beatae quos, reprehenderit
+            necessitatibus dignissimos?
         </p>
     </main>
 </body>
+<script>
+    let menu = document.getElementById('menu')
+    let menuIcon = document.getElementById("menuIcon")
+
+    function resize(){
+        if(window.innerWidth > 536){
+            menu.style.display = "flex"
+        } else {
+            menu.style.display = "none"
+        }
+    }
+
+    
+
+    function showMenu() {
+        
+
+
+        if (menu.style.display == "flex") {
+            menu.style.display = "none"
+        } else {
+            menu.style.display = "flex"
+        }
+    }
+
+
+
+
+
+</script>
+
 </html>
